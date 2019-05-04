@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0f7fa"
+    android:orientation="vertical"
+    tools:context="com.example.gopal.miwok.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/rectangular_box">
+
+        <TextView
+            android:id="@+id/number_activity"
+            style="@style/BoxStyle"
+            android:text="@string/numbers"
+            android:textColor="#FFFFFF" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/rectangular_box">
+
+        <TextView
+            android:id="@+id/family_activity"
+            style="@style/BoxStyle"
+            android:text="@string/family"
+            android:textColor="#FFFFFF" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/rectangular_box">
+
+        <TextView
+            android:id="@+id/colors_activity"
+            style="@style/BoxStyle"
+            android:text="@string/colors"
+            android:textColor="#FFFFFF" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/rectangular_box">
+
+        <TextView
+            android:id="@+id/phrases_activity"
+            style="@style/BoxStyle"
+            android:text="@string/phrases"
+            android:textColor="#FFFFFF" />
+    </FrameLayout>
+
+</LinearLayout>

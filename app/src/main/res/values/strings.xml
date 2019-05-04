@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Miwok</string>
+    <string name="phrases">PHRASES</string>
+    <string name="colors">COLORS</string>
+    <string name="family">FAMILY</string>
+    <string name="numbers">NUMBERS</string>
+
+    <!-- String for alert dialog -->
+    <string name="exit_title">Do you want to exit ?</string>
+    <string name="positive_exit_action">Exit</string>
+    <string name="negative_exit_action"> Stay</string>
+</resources>
